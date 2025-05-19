@@ -1,0 +1,37 @@
+{
+  "name": "merak-testnet-auto-bot",
+  "version": "1.0.0",
+  "description": "Automated bot for interacting with Merak Testnet on Sui blockchain",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikitoshi/Merak-Testnet-Auto-Bot.git"
+  },
+  "keywords": [
+    "sui",
+    "blockchain",
+    "defi",
+    "merak",
+    "testnet",
+    "automation"
+  ],
+  "author": "vikitoshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vikitoshi/Merak-Testnet-Auto-Bot/issues"
+  },
+  "homepage": "https://github.com/vikitoshi/Merak-Testnet-Auto-Bot#readme",
+  "dependencies": {
+    "@mysten/sui.js": "^0.42.0",
+    "dotenv": "^16.3.1",
+    "https-proxy-agent": "^7.0.2",
+    "socks-proxy-agent": "^8.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
